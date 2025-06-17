@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Link from 'next/link';
 
 export default function ContactContent() {
   useEffect(() => {
@@ -22,7 +23,7 @@ export default function ContactContent() {
           <p>Get in touch with us for any questions about our programs, admissions, or general inquiries.</p>
           <nav className="breadcrumbs">
             <ol>
-              <li><a href="/">Home</a></li>
+              <li><Link href="/">Home</Link></li>
               <li className="current">Contact</li>
             </ol>
           </nav>

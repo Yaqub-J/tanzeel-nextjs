@@ -152,7 +152,7 @@ export default function AdmissionsContent() {
                 <div className="card">
                   <div className="card-body">
                     <h3 className="card-title">Request Information</h3>
-                    <p>Have questions about our programs or admission process? Fill out this form and we'll get back to you.</p>
+                    <p>Have questions about our programs or admission process? Fill out this form and we&apos;ll get back to you.</p>
 
                     <form className="php-email-form mt-4" action="/api/contact" method="POST">
                       <div className="mb-3">

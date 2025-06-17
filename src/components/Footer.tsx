@@ -37,7 +37,7 @@ const Footer = () => {
               <li><Link href="/quran-programs">Quran Programs</Link></li>
               <li><Link href="/language-courses">Language Courses</Link></li>
               <li><Link href="/islamic-studies">Islamic Studies</Link></li>
-              <li><Link href="/children-programs">Children's Programs</Link></li>
+              <li><Link href="/children-programs">Children&apos;s Programs</Link></li>
               <li><Link href="/specialization">Specialization Courses</Link></li>
             </ul>
           </div>
@@ -60,4 +60,4 @@ const Footer = () => {
   );
 };
 
-export default Footer; 
+export default Footer;
