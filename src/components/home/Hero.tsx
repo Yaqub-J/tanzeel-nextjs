@@ -7,7 +7,7 @@ const Hero = () => {
     <section id="hero" className="hero section dark-background">
       <div className="hero-container">
         <video autoPlay muted loop playsInline className="video-background">
-          <source src="/assets/img/education/video-2.mp4" type="video/mp4" />
+          <source src="/assets/img/education/video.mp4" type="video/mp4" />
         </video>
         <div className="overlay"></div>
         <div className="container">

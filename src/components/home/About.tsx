@@ -12,15 +12,15 @@ const About = () => {
             <p className="lead mb-4">Tanzeel Academy offers structured programs for lifelong learning and growth, combining Islamic studies with essential life skills and language proficiency.</p>
             <div className="d-flex flex-wrap gap-4 mb-4">
               <div className="stat-box">
-                <span className="stat-number">3+</span>
+                <span className="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1">3+</span>
                 <span className="stat-label">Years</span>
               </div>
               <div className="stat-box">
-                <span className="stat-number">7+</span>
+                <span className="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1">7+</span>
                 <span className="stat-label">Programs</span>
               </div>
               <div className="stat-box">
-                <span className="stat-number">3</span>
+                <span className="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1">3</span>
                 <span className="stat-label">Languages</span>
               </div>
             </div>
@@ -35,7 +35,7 @@ const About = () => {
             <div className="image-stack">
               <div className="image-stack-item image-stack-item-top" data-aos="zoom-in" data-aos-delay="400">
                 <Image 
-                  src="/assets/img/education/campus-4.webp" 
+                  src="/assets/img/education/mosque.jpg" 
                   alt="Campus Life" 
                   className="img-fluid rounded-4 shadow-lg"
                   width={500}
@@ -44,7 +44,7 @@ const About = () => {
               </div>
               <div className="image-stack-item image-stack-item-bottom" data-aos="zoom-in" data-aos-delay="500">
                 <Image 
-                  src="/assets/img/education/students-2.webp" 
+                  src="/assets/img/education/students.jpg" 
                   alt="Students" 
                   className="img-fluid rounded-4 shadow-lg"
                   width={500}

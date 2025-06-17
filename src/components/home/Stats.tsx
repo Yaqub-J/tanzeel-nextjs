@@ -9,19 +9,19 @@ const Stats = () => {
       id: 1,
       title: "Top-Ranked Programs",
       description: "Our Quran memorization and Islamic studies programs are recognized for their excellence and comprehensive curriculum.",
-      image: "/assets/img/education/education-1.webp"
+      image: "/assets/img/education/tahfeez.jpg"
     },
     {
       id: 2,
       title: "State-of-the-Art Facilities",
       description: "Modern classrooms, digital learning resources, and comfortable study spaces designed for optimal learning.",
-      image: "/assets/img/education/education-2.webp"
+      image: "/assets/img/education/mosque.jpg"
     },
     {
       id: 3,
       title: "Global Alumni Network",
       description: "Join our growing network of graduates who are making positive contributions in their communities worldwide.",
-      image: "/assets/img/education/education-3.webp"
+      image: "/assets/img/education/salaat.jpg"
     }
   ];
 
