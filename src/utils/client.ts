@@ -1,4 +1,3 @@
-import { fadeIn, fadeOut, slideIn, slideOut } from './animations';
 import { validateForm } from './validation';
 
 // Mobile Navigation

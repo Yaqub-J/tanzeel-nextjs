@@ -4,6 +4,8 @@ interface ApiResponse<T> {
   status: number;
 }
 
+type RequestBody = Record<string, unknown>;
+
 export const api = {
   async get<T>(url: string): Promise<ApiResponse<T>> {
     try {
@@ -21,7 +23,7 @@ export const api = {
     }
   },
 
-  async post<T>(url: string, body: any): Promise<ApiResponse<T>> {
+  async post<T>(url: string, body: RequestBody): Promise<ApiResponse<T>> {
     try {
       const response = await fetch(url, {
         method: 'POST',
@@ -43,7 +45,7 @@ export const api = {
     }
   },
 
-  async put<T>(url: string, body: any): Promise<ApiResponse<T>> {
+  async put<T>(url: string, body: RequestBody): Promise<ApiResponse<T>> {
     try {
       const response = await fetch(url, {
         method: 'PUT',

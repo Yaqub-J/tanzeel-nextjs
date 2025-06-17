@@ -1,3 +1,12 @@
+interface ValidationRule {
+  required?: boolean;
+  email?: boolean;
+  phone?: boolean;
+  minLength?: number;
+  maxLength?: number;
+  password?: boolean;
+}
+
 export const validateEmail = (email: string): boolean => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
@@ -26,7 +35,7 @@ export const validatePassword = (password: string): boolean => {
   return passwordRegex.test(password);
 };
 
-export const validateForm = (formData: Record<string, string>, rules: Record<string, any>): Record<string, string> => {
+export const validateForm = (formData: Record<string, string>, rules: Record<string, ValidationRule>): Record<string, string> => {
   const errors: Record<string, string> = {};
 
   for (const [field, value] of Object.entries(formData)) {

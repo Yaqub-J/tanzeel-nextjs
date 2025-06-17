@@ -1,22 +1,14 @@
 'use client';
 
 import { useEffect } from 'react';
-import Image from 'next/image';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { initPureCounter } from '@/utils/counter';
 import { useLightbox } from '@/hooks/useLightbox';
+import Link from 'next/link';
 
 export default function AdmissionsContent() {
   useLightbox();
 
   useEffect(() => {
-    // Initialize AOS
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-
     // Initialize PureCounter
     const initCounter = async () => {
       await initPureCounter();
@@ -33,7 +25,7 @@ export default function AdmissionsContent() {
           <p>Begin your journey of Islamic education and spiritual growth with Tanzeel Academy.</p>
           <nav className="breadcrumbs">
             <ol>
-              <li><a href="/">Home</a></li>
+              <li><Link href="/">Home</Link></li>
               <li className="current">Admissions</li>
             </ol>
           </nav>
@@ -204,7 +196,7 @@ export default function AdmissionsContent() {
                   <i className="bi bi-building"></i>
                   <h3>Visit Our Campus</h3>
                   <p>Experience our facilities and meet our faculty. Schedule a tour to learn more about our programs.</p>
-                  <a href="/contact" className="btn btn-secondary">Schedule a Tour</a>
+                  <Link href="/contact" className="btn btn-secondary">Schedule a Tour</Link>
                 </div>
               </div>
               <div className="col-md-6">
@@ -212,7 +204,7 @@ export default function AdmissionsContent() {
                   <i className="bi bi-file-earmark-check"></i>
                   <h3>Ready to Apply?</h3>
                   <p>Start your application process today and take the first step towards your Islamic education.</p>
-                  <a href="/apply" className="btn btn-primary">Start Application</a>
+                  <Link href="/apply" className="btn btn-primary">Start Application</Link>
                 </div>
               </div>
             </div>
