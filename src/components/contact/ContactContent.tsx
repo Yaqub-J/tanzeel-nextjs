@@ -55,8 +55,7 @@ export default function ContactContent() {
                 </div>
                 <div className="info-content">
                   <h4>Email Address</h4>
-                  <p>info@tanzeelacademy.com</p>
-                  <p>admissions@tanzeelacademy.com</p>
+                  <p>info@tanzeelacademy.net</p>
                 </div>
               </div>
             </div>

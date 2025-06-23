@@ -16,7 +16,7 @@ const Footer = () => {
               <p>Dutse, Nigeria</p>
               <p className="mt-3"><strong>Phone:</strong> <span>+234 814 249 6038</span></p>
               <p><strong>WhatsApp:</strong> <span>+234 703 813 4572</span></p>
-              <p><strong>Email:</strong> <span>tanzeelacademy6@gmail.com</span></p>
+              <p><strong>Email:</strong> <span>info@tanzeelacademy.net</span></p>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
 
       <div className="container copyright text-center mt-4">
-        <p>&copy; <span>Copyright</span> <strong className="px-1">Tanzeel Academy</strong> <span>All Rights Reserved</span></p>
+        <p>&copy; <span>Copyright</span> <strong className="px-1">Leadex.ng</strong> <span>All Rights Reserved</span></p>
       </div>
     </footer>
   );
